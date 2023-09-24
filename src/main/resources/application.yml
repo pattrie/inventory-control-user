@@ -7,9 +7,10 @@ springfox:
 spring:
   data:
     mongodb:
-      host: 172.24.0.1
-      port: 27017
+      host: localhost:27017
       database: inventorycontrolusers
+  main:
+    allow-circular-references: true
 
 security:
   jwt:

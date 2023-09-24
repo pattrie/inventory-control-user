@@ -7,9 +7,8 @@ springfox:
 spring:
   data:
     mongodb:
-      host: 172.24.0.1
-      port: 27017
-      database: inventorycontrolusers
+      host: localhost:27017
+      database: inventorycontrol
 
 security:
   jwt:
